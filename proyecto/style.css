@@ -1,0 +1,161 @@
+body {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menu {
+    background-color: #000042;
+}
+
+#menu ul {
+    float: right;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-bar {
+    background-color: #000042;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    align-items: center;
+}
+
+.item-bar:hover {
+    background-color: #bfbfbf;
+    text-decoration: none;
+}
+
+.logo {
+    margin: 7px;
+    width: 20%;
+    height: 80%;
+    text-align: center;
+}
+
+.title-home {
+    text-align: center;
+    padding-top: 2%;
+}
+
+h1 {
+    font-size: 3rem;
+    color: black;
+}
+
+h3 {
+    font-size: 2rem;
+    color: black;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 700;
+}
+
+p {
+    color: black;
+    font-weight: 100;
+}
+
+.img-home {
+    width: auto;
+    height: 700px;
+    padding-top: 10px;
+}
+
+.item-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    color: black;
+}
+
+.img-us {
+    width: 25%;
+    height: 25%;
+}
+
+.text-nosotros {
+    font-size: 1em;
+    color: black;
+}
+
+.maps {
+    margin: 10% 10% 10% 10%;
+}
+
+.somos-nosotros {
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+}
+
+.text {
+    color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 10px 10px 10px 10px;
+    width: 80%;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    justify-content: center;
+    margin-left: 0%;
+    padding: 0%;
+}
+
+.grid-item {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-grid {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid-us1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid black;
+    text-align: center;
+    padding: 2%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.text-service {
+    padding: 10%;
+}
+
+.social-media {
+    text-align: center;
+    padding-top: 10px;
+}
