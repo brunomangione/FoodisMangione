@@ -11,7 +11,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500&display=swap" rel="stylesheet">
+
+    <!-- Mi CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.csshttps://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
 
     <title>Foodis</title>
 </head>
@@ -20,27 +25,40 @@
     <!-- Header Barra Menu -->
     <header>
 
-        <nav id="menu">
-            <a href="#">
-                <img class="logo" src="../images/Logo 1.png" alt="">
-            </a>
-            <ul>
-                <li>
-                    <a href="#nosotros" class="item-bar"> Nosotros</a>
-                </li>
-                <li>
-                    <a href="#servicios" class="item-bar">Servicios</a>
-                </li>
-                <li>
-                    <a href="#productos" class="item-bar">Productos</a>
-                </li>
-                <li>
-                    <a href="#alcance" class="item-bar">Alcance</a>
-                </li>
-                <li>
-                    <a href="#contacto" class="item-bar">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> <img src="../images/Logo 1.png" class="d-inline-block align-top logo" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Productos </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Bebidas Vegetales</a></li>
+                                <li><a class="dropdown-item" href="#">Tostadas y Snacks</a></li>
+                                <li><a class="dropdown-item" href="#">Granolas</a></li>
+                                <li><a class="dropdown-item" href="#">Mantequillas de Mani</a></li>
+                                <li><a class="dropdown-item" href="#">Jugos Naturales</a></li>
+                                <li><a class="dropdown-item" href="#">Barras de Cerales</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Alcance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
     </header>
@@ -113,15 +131,22 @@
     <!-- Empieza Productos -->
 
     <h2 class="item-title" id="productos"> PRODUCTOS </h2>
-    <section class="grid-container">
+    <section class="grid-container container">
+        <div class="row">
+            <div class="col-4"><img class="img-grid" src="../images/bebida3.jpg" alt=""></div>
+            <div class="col-4"><img class="img-grid" src="../images/tostadas4.jpg" alt=""></div>
+            <div class="col-4"><img class="img-grid" src="../images/granolas3.jpg" alt=""></div>
+
+        </div>
+
+        <div class="row">
+            <div class="grid-item col-4"><img class="img-grid" src="../images/mantequilla1.jpg" alt=""></div>
+            <div class="grid-item col-4"><img class="img-grid" src="../images/jugo2.jpg" alt=""></div>
+            <div class="grid-item col-4"><img class="img-grid" src="../images/barracereal.jpg" alt=""></div>
 
 
-        <div class="grid-item"><img class="img-grid" src="../images/bebida3.jpg" alt=""></div>
-        <div class="grid-item"><img class="img-grid" src="../images/tostadas4.jpg" alt=""></div>
-        <div class="grid-item"><img class="img-grid" src="../images/granolas3.jpg" alt=""></div>
-        <div class="grid-item"><img class="img-grid" src="../images/mantequilla1.jpg" alt=""></div>
-        <div class="grid-item"><img class="img-grid" src="../images/jugo2.jpg" alt=""></div>
-        <div class="grid-item"><img class="img-grid" src="../images/barracereal.jpg" alt=""></div>
+        </div>
+
 
 
 
@@ -204,6 +229,8 @@
     </footer>
     <!-- Fin Footer -->
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
