@@ -3,56 +3,68 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-#menu {
+.navbar-css {
     background-color: #000042;
 }
 
-#menu ul {
-    float: right;
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-    align-items: center;
-    justify-content: center;
-}
-
-.item-bar {
-    background-color: #000042;
+.item-menu {
     color: white;
-    display: flex;
-    justify-content: center;
-    padding: 20px 20px;
-    font-size: 1em;
-    text-decoration: none;
-    align-items: center;
 }
 
-.item-bar:hover {
+.navb:hover {
     background-color: #bfbfbf;
     text-decoration: none;
 }
 
-.logo {
-    margin: 7px;
-    width: 20%;
-    height: 80%;
-    text-align: center;
-}
-
-.title-home {
-    text-align: center;
-    padding-top: 2%;
+.inicio {
+    padding-top: 5rem;
 }
 
 h1 {
     font-size: 3rem;
-    color: black;
+    color: #000042;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
 }
 
 h3 {
     font-size: 2rem;
     color: black;
     font-weight: 200;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.box-grid {
+    padding-top: 2rem;
+    border: #000042;
+    border-style: solid;
+    border-radius: 1cm;
+}
+
+.img-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.img-serv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+}
+
+.img-alc {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
 }
 
 h2 {
@@ -64,33 +76,11 @@ h2 {
 p {
     color: black;
     font-weight: 100;
-}
-
-.img-home {
-    width: auto;
-    height: 700px;
-    padding-top: 10px;
-}
-
-.item-title {
-    display: flex;
-    justify-content: center;
-    padding-top: 10%;
-    color: black;
-}
-
-.img-us {
-    width: 25%;
-    height: 25%;
-}
-
-.text-nosotros {
-    font-size: 1em;
-    color: black;
+    text-align: center;
 }
 
 .maps {
-    margin: 10% 10% 10% 10%;
+    margin: 2rem 2rem 2rem 2rem;
 }
 
 .somos-nosotros {
