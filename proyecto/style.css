@@ -5,6 +5,9 @@ body {
 
 .navbar-css {
     background-color: #000042;
+    display: flex;
+    padding-right: 4rem;
+    justify-content: space-between;
 }
 
 .item-menu {
@@ -14,10 +17,6 @@ body {
 .navb:hover {
     background-color: #bfbfbf;
     text-decoration: none;
-}
-
-.inicio {
-    padding-top: 5rem;
 }
 
 h1 {
@@ -37,6 +36,8 @@ h3 {
 .title {
     display: flex;
     justify-content: center;
+    padding-top: 2rem;
+    font-weight: 400;
 }
 
 .box-grid {
@@ -148,4 +149,12 @@ p {
 .social-media {
     text-align: center;
     padding-top: 10px;
+}
+
+.inicio {
+    padding-top: 10rem;
+}
+
+.title-box {
+    padding-top: 10rem;
 }
