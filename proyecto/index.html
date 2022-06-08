@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <!-- iconos -->
+    <script src="https://kit.fontawesome.com/f4c59dc51b.js" crossorigin="anonymous"></script>
+
     <!-- MI CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -39,12 +42,12 @@
                         <li class="nav-item dropdown navb">
                             <a class="nav-link active dropdown-toggle" href="#productos" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item navb" href="#productos">Bebidas Vegetales</a></li>
-                                <li><a class="dropdown-item navb" href="#productos">Granolas</a></li>
-                                <li><a class="dropdown-item navb" href="#productos">Tostadas & Snacks</a></li>
-                                <li><a class="dropdown-item navb" href="#productos">Mantequillas</a></li>
-                                <li><a class="dropdown-item navb" href="#productos">Jugos Naturales</a></li>
-                                <li><a class="dropdown-item navb" href="#productos">Barras de Cerales</a></li>
+                                <li><a class="dropdown-item navb" href="#bebidasvegetales">Bebidas Vegetales</a></li>
+                                <li><a class="dropdown-item navb" href="#tostads">Tostadas</a></li>
+                                <li><a class="dropdown-item navb" href="#granolas">Granolas</a></li>
+                                <li><a class="dropdown-item navb" href="#mantequillas">Mantequillas</a></li>
+                                <li><a class="dropdown-item navb" href="#jugos">Jugos Naturales</a></li>
+                                <li><a class="dropdown-item navb" href="#barras">Barras de Cerales</a></li>
                             </ul>
                         </li>
                         <li class="nav-item navb">
@@ -123,18 +126,18 @@
     <!-- SERVICIOS -->
 
     <section>
-        <h1 id="servicios"> SERVICIOS </h1>
+        <h1 class="title-box" id="servicios"> SERVICIOS </h1>
 
         <div class="container box-grid">
             <div class="row">
 
-                <div class="col-6">
+                <div class="col-6 text-box">
                     <p> Vendemos y distribuimos productos saludables Llevamos los productos a tu comercio o a tu casa, ya que vendemos al por mayor y menor Tenemos box especiales para vos y para que puedas reagalar Contactanos, hacé el pedido y nosotros te
                         lo llevamos </p>
 
                 </div>
                 <div class="col-6">
-                    <img class="img-serv" src="../images/box4.jpg" width="80%" alt="">
+                    <img class="img-grid" src="../images/box4.jpg" width="80%" alt="">
                 </div>
             </div>
         </div>
@@ -146,29 +149,35 @@
     <!-- PRODUCTOS -->
 
     <section>
-        <h1 id="productos"> PRODUCTOS </h1>
+        <h1 class="title-box" id="productos"> PRODUCTOS </h1>
 
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div id="bebidasvegetales" class="col-4 img-container">
                     <img class="img-grid" src="../images/bebida3.jpg" width="50%" alt="">
+                    <div class="center">Bebidas Vegetales</div>
                 </div>
-                <div class="col-4">
+                <div id="tostadas" class="col-4 img-container">
                     <img class="img-grid" src="../images/tostadas2.jpg" width="50%" alt="">
+                    <div class="center">Tostadas</div>
                 </div>
-                <div class="col-4">
+                <div id="granolas" class="col-4 img-container">
                     <img class="img-grid" src="../images/cereales2.jpg" width="50%" alt="">
+                    <div class="center">Granolas</div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div id="mantequillas" class="col-4 img-container">
                     <img class="img-grid" src="../images/mantequilla1.jpg" width="50%" alt="">
+                    <div class="center">Mantequillas</div>
                 </div>
-                <div class="col-4">
+                <div id="jugos" class="col-4 img-container">
                     <img class="img-grid" src="../images/jugo2.jpg" width="50%" alt="">
+                    <div class="center">Jugos Naturales</div>
                 </div>
-                <div class="col-4">
+                <div id="barras" class="col-4 img-container">
                     <img class="img-grid" src="../images/barracereal.jpg" width="50%" alt="">
+                    <div class="center">Barras de Cereales</div>
                 </div>
             </div>
         </div>
@@ -176,27 +185,6 @@
 
         <!-- CARROUSEL -->
 
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="../images/one.svg" class="d-block w-100" alt="..." width="300px" height="450px">
-                </div>
-                <div class="carousel-item">
-                    <img src="../images/two.svg" class="d-block w-100" alt="..." width="300px" height="450px">
-                </div>
-                <div class="carousel-item">
-                    <img src="../images/three.svg" class="d-block w-100" alt="..." width="300px" height="450px">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-        </div>
 
 
     </section>
@@ -204,14 +192,14 @@
     <!-- ALCANCE -->
 
     <section>
-        <h1 id="alcance"> ALCANCE </h1>
+        <h1 class="title-box" id="alcance"> ALCANCE </h1>
 
         <div class="container box-grid">
             <div class="row">
                 <div class="col-6">
-                    <img class="img-alc" src="../images/pampa.jpg" width="80%" alt="">
+                    <img class="img-grid" src="../images/pampa.jpg" width="80%" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-6 text-box">
                     <p> Estamos en General Pico, La Pampa Hacemos los envíos en el día en la ciudad Para el resto de la provincia enviamos los pedidos dentro de las 48hs PROXIMAMENTE envios a todo el país </p>
 
 
@@ -225,7 +213,7 @@
     <!-- CONTACTO -->
 
     <section>
-        <h1 id="contacto"> CONTACTO </h1>
+        <h1 class="title-box" id="contacto"> CONTACTO </h1>
 
         <div class="container box-grid">
             <div class="row">
@@ -234,9 +222,11 @@
                         width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-6">
-                    <p> Direccion: Calle </p>
-                    <p> Telefono: </p>
-                    <p> Mail: </p>
+                    <p> Direccion: Calle 37 N 476 | General Pico | La Pampa </p>
+
+                    <p> Telefono: + 54 9 2302 416 587 </p>
+
+                    <p> Mail: administracion@foodis.com.ar </p>
 
                 </div>
 
@@ -258,21 +248,23 @@
     </section>
 
     <footer>
-        <div>
-            <h3 class="social-media"> REDES SOCIALES </h3>
 
-            <div>
-                <a href=""></a>
-                <!-- Instagram -->
+        <h3 class="social-media title-box"> REDES SOCIALES </h3>
 
-                <a href=""></a>
-                <!-- Whatsapp -->
+        <div class="icons">
 
-            </div>
+            <a href="https://www.instagram.com/foodisarg/" target="_blank"><i class="fa-brands fa-instagram fa-4x inst"></i></a>
 
+            <!-- Instagram -->
+            <a href="wa.link/97s3w9" target="_blank"><i class="fa-brands fa-whatsapp fa-4x whap"></i></a>
 
+            <!-- Whatsapp -->
 
         </div>
+
+
+
+
     </footer>
 
 
