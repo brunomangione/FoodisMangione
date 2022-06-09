@@ -1,0 +1,121 @@
+body {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-css {
+    background-color: #000042;
+    display: flex;
+    padding-right: 4rem;
+    justify-content: space-between;
+}
+
+.item-menu {
+    color: white;
+}
+
+.navb:hover {
+    background-color: #bfbfbf;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #000042;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    color: black;
+    font-weight: 200;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    font-weight: 400;
+}
+
+.box-grid {
+    padding-top: 2rem;
+    border: #000042;
+    border-style: solid;
+    border-radius: 1cm;
+    width: 80% !important;
+}
+
+.img-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 700;
+}
+
+p {
+    color: black;
+    font-weight: 100;
+    text-align: center;
+}
+
+.maps {
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.img-grid:hover {
+    filter: opacity(.5);
+}
+
+.social-media {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.inicio {
+    padding-top: 10rem;
+}
+
+.text-box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-box {
+    padding-top: 10rem;
+    color: #000042 !important;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.center {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #000042;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
