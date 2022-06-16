@@ -119,6 +119,7 @@ p {
     display: flex;
     justify-content: space-around;
     margin-top: 3rem;
+    background-color: nth($colores, 5);
 }
 
 section {

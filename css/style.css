@@ -118,6 +118,7 @@ p {
   display: flex;
   justify-content: space-around;
   margin-top: 3rem;
+  background-color: #F27405;
 }
 
 section .title-box {
