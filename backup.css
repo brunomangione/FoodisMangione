@@ -75,7 +75,7 @@ p {
 }
 
 .img-grid:hover {
-    filter: opacity(.5);
+    filter: opacity(0.5);
 }
 
 .social-media {
@@ -118,4 +118,10 @@ p {
     display: flex;
     justify-content: space-around;
     margin-top: 3rem;
+}
+
+section .title-box {
+    padding-top: 10rem;
+    color: #000042 !important;
+    background-color: red;
 }

@@ -1,18 +1,18 @@
-$color-principal: #000042;
-body {
-    background-color: white;
+@import '../scss/base/listas';
+.body {
+    background-color: nth($colores, 4);
     font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-css {
-    background-color: #000042;
+    background-color: nth($colores, 2);
     display: flex;
     padding-right: 4rem;
     justify-content: space-between;
 }
 
 .item-menu {
-    color: white;
+    color: nth($colores, 2);
 }
 
 .navb:hover {
@@ -124,7 +124,6 @@ p {
 section {
     .title-box {
         padding-top: 10rem;
-        color: $color-principal !important;
-        background-color: red;
+        color: nth($colores, 5);
     }
 }
