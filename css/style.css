@@ -1,38 +1,40 @@
 /* Listas  y bases */
 h1 {
-  font-size: 3rem;
-  color: #F27405;
+  font-size: 4rem !important;
+  color: #384759 !important;
   display: flex;
   justify-content: center;
-  padding-top: 5rem;
+  padding-top: 7rem !important;
 }
 
 .title-box {
-  padding-top: 10rem;
-  color: #000042 !important;
+  padding-top: 5rem;
+  color: #384759 !important;
+}
+
+h2 {
+  font-size: 2.5rem !important;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
 }
 
 h3 {
   font-size: 2rem;
-  color: black;
+  color: #000000;
   font-weight: 200;
 }
 
-h2 {
-  font-size: 2.5rem;
-  color: black;
-  font-weight: 700;
-}
-
 p {
-  color: black;
-  font-weight: 100;
+  color: #000000;
+  font-weight: 200;
+  font-size: 1rem;
   text-align: center;
 }
 
 /* Componentes de landing page */
 .body {
-  background-color: #F2DC99;
+  background-color: #F2F2F2;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -53,43 +55,45 @@ p {
 }
 
 .inicio {
-  padding-top: 10rem;
-}
-
-h1 {
-  font-size: 3rem;
-  color: #F27405;
-  display: flex;
-  justify-content: center;
   padding-top: 5rem;
 }
 
+h1 {
+  font-size: 4rem !important;
+  color: #384759 !important;
+  display: flex;
+  justify-content: center;
+  padding-top: 7rem !important;
+}
+
 .title-box {
-  padding-top: 10rem;
-  color: #000042 !important;
+  padding-top: 5rem;
+  color: #384759 !important;
+}
+
+h2 {
+  font-size: 2.5rem !important;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
 }
 
 h3 {
   font-size: 2rem;
-  color: black;
+  color: #000000;
   font-weight: 200;
 }
 
-h2 {
-  font-size: 2.5rem;
-  color: black;
-  font-weight: 700;
-}
-
 p {
-  color: black;
-  font-weight: 100;
+  color: #000000;
+  font-weight: 200;
+  font-size: 1rem;
   text-align: center;
 }
 
 .box-grid {
   padding-top: 2rem;
-  border: #000042;
+  border: #384759;
   border-style: solid;
   border-radius: 1cm;
   width: 80% !important;
@@ -134,8 +138,8 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.5rem;
-  font-weight: 200;
-  color: #000042;
+  font-weight: 400;
+  color: #384759;
 }
 
 section .title-box {
@@ -149,13 +153,13 @@ section .title-box {
 
 .social-media {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 5rem !important;
 }
 
 .icons {
   display: flex;
-  justify-content: space-around;
-  margin-top: 3rem;
+  justify-content: space-evenly;
+  margin-top: 2rem;
   background-color: #F27405;
 }
 

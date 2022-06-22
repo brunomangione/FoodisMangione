@@ -2,7 +2,7 @@
 @import '../base/texts';
 .box-grid {
     padding-top: 2rem;
-    border: #000042;
+    border: nth($colores, 2);
     border-style: solid;
     border-radius: 1cm;
     width: 80% !important;
@@ -47,8 +47,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.5rem;
-    font-weight: 200;
-    color: #000042;
+    font-weight: 400;
+    color: nth($colores, 2);
 }
 
 section {

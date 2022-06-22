@@ -1,11 +1,12 @@
+@import '../base/listas';
 .social-media {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5rem !important;
 }
 
 .icons {
     display: flex;
-    justify-content: space-around;
-    margin-top: 3rem;
+    justify-content: space-evenly;
+    margin-top: 2rem;
     background-color: nth($colores, 5);
 }

@@ -1,30 +1,33 @@
+@import '../base/listas';
 h1 {
-    font-size: 3rem;
-    color: nth($colores, 5);
+    font-size: 4rem !important;
+    color: nth($colores, 2) !important;
     display: flex;
     justify-content: center;
-    padding-top: 5rem;
+    padding-top: 7rem !important;
 }
 
 .title-box {
-    padding-top: 10rem;
-    color: #000042 !important;
+    padding-top: 5rem;
+    color: nth($colores, 2) !important;
+}
+
+h2 {
+    font-size: 2.5rem !important;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
 }
 
 h3 {
     font-size: 2rem;
-    color: black;
+    color: nth($colores, 7);
     font-weight: 200;
 }
 
-h2 {
-    font-size: 2.5rem;
-    color: black;
-    font-weight: 700;
-}
-
 p {
-    color: black;
-    font-weight: 100;
+    color: nth($colores, 7);
+    font-weight: 200;
+    font-size: 1rem;
     text-align: center;
 }
