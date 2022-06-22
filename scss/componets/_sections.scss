@@ -1,0 +1,63 @@
+@import '../base/listas';
+@import '../base/texts';
+.box-grid {
+    padding-top: 2rem;
+    border: #000042;
+    border-style: solid;
+    border-radius: 1cm;
+    width: 80% !important;
+}
+
+.img-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-grid:hover {
+    filter: opacity(.5);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    font-weight: 400;
+}
+
+.text-box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.center {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #000042;
+}
+
+section {
+    .title-box {
+        padding-top: 10rem;
+        color: nth($colores, 5);
+    }
+}
+
+.maps {
+    margin: 2rem 2rem 2rem 2rem;
+}

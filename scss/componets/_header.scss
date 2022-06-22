@@ -1,0 +1,16 @@
+@import '../base/listas';
+.navbar-css {
+    background-color: nth($colores, 2);
+    display: flex;
+    padding-right: 4rem;
+    justify-content: space-between;
+}
+
+.item-menu {
+    color: nth($colores, 2);
+}
+
+.navb:hover {
+    background-color: nth($colores, 6);
+    text-decoration: none;
+}

@@ -1,3 +1,36 @@
+/* Listas  y bases */
+h1 {
+  font-size: 3rem;
+  color: #F27405;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.title-box {
+  padding-top: 10rem;
+  color: #000042 !important;
+}
+
+h3 {
+  font-size: 2rem;
+  color: black;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 700;
+}
+
+p {
+  color: black;
+  font-weight: 100;
+  text-align: center;
+}
+
+/* Componentes de landing page */
 .body {
   background-color: #F2DC99;
   font-family: "Montserrat", sans-serif;
@@ -19,12 +52,21 @@
   text-decoration: none;
 }
 
+.inicio {
+  padding-top: 10rem;
+}
+
 h1 {
   font-size: 3rem;
-  color: #000042;
+  color: #F27405;
   display: flex;
   justify-content: center;
   padding-top: 5rem;
+}
+
+.title-box {
+  padding-top: 10rem;
+  color: #000042 !important;
 }
 
 h3 {
@@ -33,11 +75,16 @@ h3 {
   font-weight: 200;
 }
 
-.title {
-  display: flex;
-  justify-content: center;
-  padding-top: 2rem;
-  font-weight: 400;
+h2 {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 700;
+}
+
+p {
+  color: black;
+  font-weight: 100;
+  text-align: center;
 }
 
 .box-grid {
@@ -58,44 +105,21 @@ h3 {
   object-fit: cover;
 }
 
-h2 {
-  font-size: 2.5rem;
-  color: black;
-  font-weight: 700;
-}
-
-p {
-  color: black;
-  font-weight: 100;
-  text-align: center;
-}
-
-.maps {
-  margin: 2rem 2rem 2rem 2rem;
-}
-
 .img-grid:hover {
   filter: opacity(0.5);
 }
 
-.social-media {
-  text-align: center;
-  padding-top: 10px;
-}
-
-.inicio {
-  padding-top: 10rem;
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  font-weight: 400;
 }
 
 .text-box {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-}
-
-.title-box {
-  padding-top: 10rem;
-  color: #000042 !important;
 }
 
 .img-container {
@@ -114,16 +138,25 @@ p {
   color: #000042;
 }
 
+section .title-box {
+  padding-top: 10rem;
+  color: #F27405;
+}
+
+.maps {
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+.social-media {
+  text-align: center;
+  padding-top: 10px;
+}
+
 .icons {
   display: flex;
   justify-content: space-around;
   margin-top: 3rem;
   background-color: #F27405;
-}
-
-section .title-box {
-  padding-top: 10rem;
-  color: #F27405;
 }
 
 /*# sourceMappingURL=style.css.map */
