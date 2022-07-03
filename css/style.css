@@ -149,6 +149,7 @@ section .title-box {
 
 .maps {
   margin: 2rem 2rem 2rem 2rem;
+  width: 90%;
 }
 
 .social-media {
@@ -160,7 +161,7 @@ section .title-box {
   display: flex;
   justify-content: space-evenly;
   margin-top: 2rem;
-  background-color: #F27405;
+  background-color: #bfbfbf;
 }
 
 /*# sourceMappingURL=style.css.map */
